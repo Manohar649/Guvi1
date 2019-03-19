@@ -2,10 +2,10 @@
 int check(int q);
 int main(void)
 {
-    int a,a1,j;
-    scanf("%d%d",&a,&a1);
+    int a,j;
+    scanf("%d",&a);
     check(a);
-    check(a1);
+    //check(a1);
     return 0;
 }
 int check(int q){
