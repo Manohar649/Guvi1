@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(void){
-    int num,i,j;
+    long int num;
+    int i,j;
     scanf("%d",&num);
     while(num>0){
         j=num%10;
