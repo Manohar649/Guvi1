@@ -8,9 +8,9 @@ int main()
     len=strlen(a);
     for(i=0;i<len;i++){
         for(j=i+1;j<len;j++){
-            if(a[j]==a[i]){printf("no");flag=1;break;}
+            if(a[j]==a[i]){printf("No");flag=1;break;}
         }
     if(flag==1){break;}
-    }if(flag==0){printf("yes");}
+    }if(flag==0){printf("Yes");}
     return 0;
 }
